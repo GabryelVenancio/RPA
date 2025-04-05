@@ -1,25 +1,24 @@
-# 📰 Automação G1 - Click Aleatório em Notícias
+# 📰 Automação G1 - Clique Aleatório em Notícias
 
-Um script Python que automatiza a navegação no site G1 e clica em notícias aleatórias, com captura de telas de cada passo.
+Um assistente virtual em Python que automatiza a navegação no portal G1 e clica em notícias aleatórias, gerando relatório completo das ações.
 
-## 🛠️ Funcionalidades
+## 📋 Funcionalidades Principais
 
-- Abre o navegador Chrome maximizado
-- Acessa a página principal do G1
-- Rola a página para carregar mais notícias
-- Seleciona e clica em uma notícia aleatória
-- Registra todo o processo com capturas de tela
-- Funciona em diferentes resoluções de tela
+- ✔️ Abertura automatizada do navegador Opera
+- 🌐 Navegação para a página do G1
+- 🎯 Clique aleatório em notícias (configurável por área)
+- 📊 Geração de relatório em Excel com:
+  - Todas as ações executadas
+  - Status de cada operação
+  - Tempos de execução
+  - Timestamps precisos
+- 📸 Captura automática de telas
 
-## 📦 Pré-requisitos
+## 🛠️ Tecnologias Utilizadas
 
 - Python 3.8+
-- Navegador Chrome instalado
-- Bibliotecas listadas em `requirements.txt`
-
-## ⚙️ Instalação
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/automacao-g1.git
-   cd automacao-g1
+- Bibliotecas:
+  - `pyautogui` para automação
+  - `pandas` para manipulação de dados
+  - `openpyxl` para relatórios em Excel
+  - `datetime` para registro temporal
