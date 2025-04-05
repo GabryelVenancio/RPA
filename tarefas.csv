@@ -1,0 +1,6 @@
+Tarefa,Tipo,Dado
+Abrir navegador,executavel,opera
+Acessar G1,navegar,https://g1.globo.com/
+Rolar pagina,scroll,500
+Clicar noticia aleatoria,click_aleatorio,300-800
+Esperar,espera,5
